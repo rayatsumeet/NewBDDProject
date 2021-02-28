@@ -102,12 +102,12 @@
                     <div class="method-list-content passed suite-EmployeesRestAPISuite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-EmployeesRestAPISuite" title="request.Post" class="method navigator-link" hash-for-method="checkpost">checkpost</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-EmployeesRestAPISuite" title="request.VerifyList" class="method navigator-link" hash-for-method="verifycodes">verifycodes</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-EmployeesRestAPISuite" title="request.update" class="method navigator-link" hash-for-method="update">update</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-EmployeesRestAPISuite" title="request.VerifyList" class="method navigator-link" hash-for-method="verifydata">verifydata</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-EmployeesRestAPISuite -->
@@ -125,29 +125,21 @@
           <div class="suite-EmployeesRestAPISuite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">request.Post</span>
+              <span class="class-name">request.VerifyList</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="checkpost">
-                  </a> <!-- checkpost -->
-                  <span class="method-name">checkpost</span>
+                  <a name="verifycodes">
+                  </a> <!-- verifycodes -->
+                  <span class="method-name">verifycodes</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-EmployeesRestAPISuite-class-passed -->
-          <div class="suite-EmployeesRestAPISuite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">request.update</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="update">
-                  </a> <!-- update -->
-                  <span class="method-name">update</span>
+                  <a name="verifydata">
+                  </a> <!-- verifydata -->
+                  <span class="method-name">verifydata</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -167,8 +159,7 @@
   &lt;/listeners&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;EmployeesRestAPITest&quot; verbose=&quot;0&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;request.Post&quot;/&gt;
-      &lt;class name=&quot;request.update&quot;/&gt;
+      &lt;class name=&quot;request.VerifyList&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- EmployeesRestAPITest --&gt;
 &lt;/suite&gt; &lt;!-- EmployeesRestAPISuite --&gt;
@@ -182,7 +173,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">EmployeesRestAPITest (2 classes)</span>
+                <span class="test-name">EmployeesRestAPITest (1 class)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -210,18 +201,18 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(2);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'checkpost')
-data.setCell(0, 2, 'request.Post')
-data.setCell(0, 3, 3072);
+data.setCell(0, 1, 'verifycodes')
+data.setCell(0, 2, 'request.VerifyList')
+data.setCell(0, 3, 1008);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'update')
-data.setCell(1, 2, 'request.update')
-data.setCell(1, 3, 727);
+data.setCell(1, 1, 'verifydata')
+data.setCell(1, 2, 'request.VerifyList')
+data.setCell(1, 3, 563);
 window.suiteTableData['EmployeesRestAPISuite']= { tableData: data, tableDiv: 'times-div-EmployeesRestAPISuite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 3 seconds</span>
+              <span class="suite-total-time">Total running time: 1 seconds</span>
               <div id="times-div-EmployeesRestAPISuite">
               </div> <!-- times-div-EmployeesRestAPISuite -->
             </div> <!-- times-div -->
@@ -247,37 +238,18 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">request.Post</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">request.VerifyList</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
-                <span class="method-name">setup</span>
+                <span class="method-name">seturl</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-class before -->
-              <div class="configuration-class before">
-                <span class="method-name">Data</span>
-                <span class="method-start">43 ms</span>
-              </div> <!-- configuration-class before -->
               <div class="test-method">
-                <span class="method-name">checkpost</span>
-                <span class="method-start">935 ms</span>
+                <span class="method-name">verifycodes</span>
+                <span class="method-start">379 ms</span>
               </div> <!-- test-method -->
-              <div class="configuration-class after">
-                <span class="method-name">teardown</span>
-                <span class="method-start">4016 ms</span>
-              </div> <!-- configuration-class after -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">request.update</div> <!-- chronological-class-name -->
-              <div class="configuration-class before">
-                <span class="method-name">setup</span>
-                <span class="method-start">4019 ms</span>
-              </div> <!-- configuration-class before -->
-              <div class="configuration-class before">
-                <span class="method-name">datapreapare</span>
-                <span class="method-start">4021 ms</span>
-              </div> <!-- configuration-class before -->
               <div class="test-method">
-                <span class="method-name">update</span>
-                <span class="method-start">4023 ms</span>
+                <span class="method-name">verifydata</span>
+                <span class="method-start">1393 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

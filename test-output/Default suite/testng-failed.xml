@@ -3,11 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="request.postwithexcel">
+      <class name="request.VerifyList">
         <methods>
-          <include name="setdata" invocation-numbers="1 0"/>
+          <include name="verifydata"/>
+          <include name="seturl"/>
         </methods>
-      </class> <!-- request.postwithexcel -->
+      </class> <!-- request.VerifyList -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

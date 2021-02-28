@@ -1,4 +1,5 @@
 request\update.class
+request\VerifyList.class
 request\postwithexcel.class
 utility\Listeners.class
 request\Post.class

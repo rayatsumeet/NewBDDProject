@@ -7,8 +7,8 @@
 </listeners>
 	<test  name="EmployeesRestAPITest">
 		<classes>
-		<class name="request.Post" />
-		<class name="request.update" />
+		<class name="request.VerifyList" />
+		
 	
 		
 			

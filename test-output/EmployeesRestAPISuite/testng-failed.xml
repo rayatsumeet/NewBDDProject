@@ -6,13 +6,12 @@
   </listeners>
   <test thread-count="5" name="EmployeesRestAPITest(failed)">
     <classes>
-      <class name="request.update">
+      <class name="request.VerifyList">
         <methods>
-          <include name="update"/>
-          <include name="datapreapare"/>
-          <include name="setup"/>
+          <include name="verifydata"/>
+          <include name="seturl"/>
         </methods>
-      </class> <!-- request.update -->
+      </class> <!-- request.VerifyList -->
     </classes>
   </test> <!-- EmployeesRestAPITest(failed) -->
 </suite> <!-- Failed suite [EmployeesRestAPISuite] -->

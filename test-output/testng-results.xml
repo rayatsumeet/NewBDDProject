@@ -2,42 +2,24 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-12-30T15:34:18 IST" name="EmployeesRestAPISuite" finished-at="2020-12-30T15:34:23 IST" duration-ms="4548">
+  <suite started-at="2021-02-28T11:54:00 IST" name="Default suite" finished-at="2021-02-28T11:54:02 IST" duration-ms="2283">
     <groups>
     </groups>
-    <test started-at="2020-12-30T15:34:18 IST" name="EmployeesRestAPITest" finished-at="2020-12-30T15:34:23 IST" duration-ms="4548">
-      <class name="request.Post">
-        <test-method is-config="true" signature="setup()[pri:0, instance:request.Post@59d016c9]" started-at="2020-12-30T15:34:18 IST" name="setup" finished-at="2020-12-30T15:34:18 IST" duration-ms="27" status="PASS">
+    <test started-at="2021-02-28T11:54:00 IST" name="Default test" finished-at="2021-02-28T11:54:02 IST" duration-ms="2283">
+      <class name="request.VerifyList">
+        <test-method is-config="true" signature="seturl()[pri:0, instance:request.VerifyList@75329a49]" started-at="2021-02-28T11:54:00 IST" name="seturl" finished-at="2021-02-28T11:54:00 IST" duration-ms="420" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method is-config="true" signature="Data()[pri:0, instance:request.Post@59d016c9]" started-at="2020-12-30T15:34:18 IST" name="Data" finished-at="2020-12-30T15:34:19 IST" duration-ms="591" status="PASS">
+        </test-method> <!-- seturl -->
+        <test-method signature="verifycodes()[pri:1, instance:request.VerifyList@75329a49]" started-at="2021-02-28T11:54:00 IST" name="verifycodes" finished-at="2021-02-28T11:54:01 IST" duration-ms="1142" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Data -->
-        <test-method signature="checkpost()[pri:1, instance:request.Post@59d016c9]" started-at="2020-12-30T15:34:19 IST" name="checkpost" finished-at="2020-12-30T15:34:22 IST" duration-ms="3051" status="PASS">
+        </test-method> <!-- verifycodes -->
+        <test-method signature="verifydata()[pri:2, instance:request.VerifyList@75329a49]" started-at="2021-02-28T11:54:01 IST" name="verifydata" finished-at="2021-02-28T11:54:02 IST" duration-ms="698" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- checkpost -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:request.Post@59d016c9]" started-at="2020-12-30T15:34:22 IST" name="teardown" finished-at="2020-12-30T15:34:22 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-      </class> <!-- request.Post -->
-      <class name="request.update">
-        <test-method is-config="true" signature="setup()[pri:0, instance:request.update@3cc2931c]" started-at="2020-12-30T15:34:22 IST" name="setup" finished-at="2020-12-30T15:34:22 IST" duration-ms="4" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method is-config="true" signature="datapreapare()[pri:0, instance:request.update@3cc2931c]" started-at="2020-12-30T15:34:22 IST" name="datapreapare" finished-at="2020-12-30T15:34:22 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- datapreapare -->
-        <test-method signature="update()[pri:0, instance:request.update@3cc2931c]" started-at="2020-12-30T15:34:22 IST" name="update" finished-at="2020-12-30T15:34:23 IST" duration-ms="688" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- update -->
-      </class> <!-- request.update -->
-    </test> <!-- EmployeesRestAPITest -->
-  </suite> <!-- EmployeesRestAPISuite -->
+        </test-method> <!-- verifydata -->
+      </class> <!-- request.VerifyList -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
